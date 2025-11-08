@@ -1,6 +1,7 @@
 # Ignorer les fichiers volumineux et sensibles
 *.nc
 *.zarr
+*.zip
 *.h5
 __pycache__/
 .cdsapirc
