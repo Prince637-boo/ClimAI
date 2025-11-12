@@ -1,6 +1,6 @@
 # 🌦️ Météo Précise par IA pour l'Énergie
 
-![Logo du projet](https://www.google.com/imgres?q=m%C3%A9t%C3%A9o&imgurl=https%3A%2F%2Fwww.republicoftogo.com%2Fvar%2Fsite%2Fstorage%2Fimages%2Ftoutes-les-rubriques%2Fenvironnement%2Fmeteo-en-temps-reel%2F2884924-1-fre-FR%2Fmeteo-en-temps-reel_i1920.jpg&imgrefurl=https%3A%2F%2Fwww.republicoftogo.com%2Ftoutes-les-rubriques%2Fenvironnement%2Fmeteo-en-temps-reel&docid=3clcflGs_k4vVM&tbnid=tQLNPjGFZ9IvaM&vet=12ahUKEwjj_ZSnhe2QAxVRZ0EAHdIyLjUQM3oECBQQAA..i&w=1920&h=1080&hcb=2&ved=2ahUKEwjj_ZSnhe2QAxVRZ0EAHdIyLjUQM3oECBQQAA)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Available-orange)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.95.2-lightgrey)
