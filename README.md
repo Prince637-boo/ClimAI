@@ -1,6 +1,6 @@
 # 🌦️ Météo Précise par IA pour l'Énergie
 
-![Logo du projet](https://i.ibb.co/2n9kHnH/weather-ai-logo.png)
+![Logo du projet](https://share.google/images/pIgB1jPvzYzmQ04Jz)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.95.2-lightgrey)
@@ -60,5 +60,61 @@ Elle fournit des **prédictions hyper-localisées et à court terme**, adaptées
 
 ---
 
-## 🏗️ Architecture
+
+---
+
+## 🛠️ Stack Technique
+
+| Catégorie | Technologies |
+|-----------|-------------|
+| Langage | Python 3.10+ |
+| Backend | FastAPI / Django REST |
+| Frontend | React + TailwindCSS |
+| Modèles IA | GraphCast, Pangu-Weather, ClimaX |
+| Stockage | PostgreSQL, Redis, S3 |
+| Visualisation | Plotly, Leaflet, Gradio |
+| Authentification | JWT / OAuth2 |
+| Déploiement | Docker, GitHub Actions |
+
+---
+
+## 📆 Roadmap
+
+| Phase | Description | Statut |
+|-------|------------|-------|
+| 0 | Cadrage & Design (spécifications, maquettes UX) | ✅ En cours |
+| 1 | MVP Baseline : GraphCast + API + UI de base | 🔄 À venir |
+| 2 | Précision IA : Pangu-Weather + incertitude | ⏳ Planifié |
+| 3 | Version Premium : comptes, historique, export, ClimaX | 🕓 Planifié |
+| 4 | Déploiement Cloud : Docker + CI/CD | 🕓 Planifié |
+
+---
+
+## 🌍 Cas d’Usage
+
+- **Centrales solaires** → Prévision de l’irradiance  
+- **Parcs éoliens** → Prévision du vent  
+- **Trading énergétique** → Anticipation des fluctuations météo  
+- **Réseaux électriques** → Optimisation de la distribution  
+
+---
+
+## 💻 Installation (Prototype)
+
+```bash
+# Cloner le dépôt
+git clone https://github.com/<votre-utilisateur>/<nom-du-repo>.git
+cd <nom-du-repo>
+
+# Créer et activer l'environnement virtuel
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
+# Installer les dépendances
+pip install -r requirements.txt
+
+# Lancer l'application
+uvicorn app.main:app --reload
+
 
