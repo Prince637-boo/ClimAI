@@ -1,4 +1,4 @@
-m# 🌦️ Météo Précise par IA pour l'Énergie
+# 🌦️ Météo Précise par IA pour l'Énergie
 
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Available-orange)
 
