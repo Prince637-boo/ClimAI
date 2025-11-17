@@ -1,6 +1,24 @@
-import requests
+from api_client import get_weather_data
+from analyzer import generate_togo_insights
 
-def get_weather(lat, lon):
-    url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&hourly=temperature_2m,precipitation,wind_speed_10m"
-    r = requests.get(url)
-    return r.json()
+def main():
+    """
+    Point d'entrée principal de l'application.
+    """
+    # Coordonnées de Lomé, Togo
+    LATITUDE = 6.13
+    LONGITUDE = 1.22
+    
+    print(f"Récupération des données météo pour Lomé (Lat: {LATITUDE}, Lon: {LONGITUDE})...")
+    weather_data = get_weather_data(LATITUDE, LONGITUDE)
+    
+    if weather_data:
+        print("Analyse des données et génération des alertes...")
+        insights = generate_togo_insights(weather_data)
+        for insight in insights:
+            print(f"- {insight}")
+    else:
+        print("Impossible de poursuivre sans données météo.")
+        
+if __name__ == "__main__":
+    main()
